@@ -1,0 +1,23 @@
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code / Editor
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.bak
+*.swp
