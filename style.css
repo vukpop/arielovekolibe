@@ -518,6 +518,34 @@ ul {
     color: var(--text-muted);
 }
 
+/* Viber card */
+.contact-card.viber-card .icon {
+    background-color: rgba(125, 86, 185, 0.15);
+    color: #7d56b9;
+}
+
+.contact-card.viber-card:hover {
+    border-color: #7d56b9;
+}
+
+.contact-card.viber-card:hover .icon {
+    background-color: rgba(125, 86, 185, 0.3);
+}
+
+/* WhatsApp card */
+.contact-card.whatsapp-card .icon {
+    background-color: rgba(37, 211, 102, 0.12);
+    color: #25d366;
+}
+
+.contact-card.whatsapp-card:hover {
+    border-color: #25d366;
+}
+
+.contact-card.whatsapp-card:hover .icon {
+    background-color: rgba(37, 211, 102, 0.25);
+}
+
 .map-container {
     height: 100%;
     min-height: 400px;
@@ -578,6 +606,26 @@ footer p {
 .footer-social svg {
     width: 24px;
     height: 24px;
+}
+
+.footer-credit {
+    text-align: center;
+    padding: 14px 0 10px;
+    font-size: 0.78rem;
+    color: #3a4a44;
+    border-top: 1px solid rgba(255,255,255,0.04);
+    margin-top: 4px;
+}
+
+.footer-credit a {
+    color: #3a4a44;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    letter-spacing: 0.3px;
+}
+
+.footer-credit a:hover {
+    color: var(--accent);
 }
 
 /* Lightbox Modal */
